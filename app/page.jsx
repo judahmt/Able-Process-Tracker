@@ -2,6 +2,7 @@ import GrayButton from "@/components/gray-button";
 import SectionBreak from "@/components/section-break";
 import Partner from "@/components/partner";
 import TaskBox from "@/components/task-box";
+import TaskForm from "@/components/task-form";
 
 const Home = () => {
   
@@ -23,6 +24,8 @@ const Home = () => {
       <Partner name={'Company Name'}/>
       <SectionBreak />
       <TaskBox task={myTask}/>
+      <SectionBreak></SectionBreak>
+      <TaskForm></TaskForm>
     </div>
   )
 }
