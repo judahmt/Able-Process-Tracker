@@ -13,7 +13,7 @@ class DatabaseClient {
     return database.companies.find((company) => company.id === id) || null;
   }
   static getCompanyByName(name) {
-    return database.companies.find((company) => company.name === name);
+    return database.companies.find((company) => company.name === name || null);
   }
   static addCompany(company) {
     database.companies.push(company);
