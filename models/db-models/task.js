@@ -1,14 +1,14 @@
-class Task {
+class TaskDTO {
   constructor(
-    sender,
-    assignedTo,
+    senderId,
+    assignedToId,
     documentType,
     deadline,
     urgency,
     additionalInfo
   ) {
-    this.sender = sender;
-    this.assignedTo = assignedTo;
+    this.senderId = senderId;
+    this.assignedToId = assignedToId;
     this.documentType = documentType;
     this.deadline = deadline;
     this.urgency = urgency;
@@ -16,4 +16,4 @@ class Task {
   }
 }
 
-module.exports = Task;
+module.exports = TaskDTO;
