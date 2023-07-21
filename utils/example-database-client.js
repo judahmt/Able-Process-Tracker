@@ -66,6 +66,9 @@ class DatabaseClient {
     }
     return tasks;
   }
+  static addTask(taskDTO) {
+    database.tasks.push(taskDTO);
+  }
 }
 
 export default DatabaseClient;
