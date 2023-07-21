@@ -24,6 +24,30 @@ const database = {
       "Medium",
       "Please provide us with the information on www.ndaforms.com."
     ),
+    new TaskDTO(
+      1,
+      2,
+      "SOW",
+      "11/09/2023",
+      "Low",
+      "Please provide us with the information on www.sowforms.com."
+    ),
+    new TaskDTO(
+      1,
+      2,
+      "none",
+      "12/09/2023",
+      "Medium",
+      "Detail definition of the project. Let's talk on Slack."
+    ),
+    new TaskDTO(
+      1,
+      3,
+      "NDA",
+      "01/08/2023",
+      "High",
+      "Please provide us with the information on www.ndaforms.com."
+    ),
   ],
 };
 

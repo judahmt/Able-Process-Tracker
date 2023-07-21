@@ -9,6 +9,10 @@ export async function GET() {
       DatabaseClient.getUserById(2),
       DatabaseClient.getBackofficeOperatorById(1),
     ],
+    parsedUsers: DatabaseClient.getUsersByCompanyId(1),
+    parsedTasks: DatabaseClient.getTasksByAssignedToId(1),
+    parsedTasksCompany:
+      DatabaseClient.getTasksByCompanyName("The Best Company"),
   };
   return new Response(JSON.stringify(info));
 }
